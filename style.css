@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+:root{
+    --primary-color: #c242c0;
+    --secondary-color: #800080;
+    --button-color: #f7eaf7;
+    --background-color: #f3f3f3;
+}
+/*FORM CSS*/
+.hydrated{
+    visibility: hidden;
+}
+body{
+    line-height: 1;
+    font-family: "poppins";
+    background-color: #e0cce0;
+ 
+}
+
+.container{
+    width: 100%;
+    height: 95vh;
+    background-color: var(--background-color);
+    box-shadow: #00000040 0px 14px 28px, #00000038 0px 10px 10px;;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* ALTschool CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+.navbar{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav__links .nav__button{
+    display: flex;
+    align-items: center;
+}
+.nav__links a{
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 29px;
+}
+
+.btn{
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.bg{
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 20px;
+    background-color: #850c83;
+}
+.center{
+    text-align: center;
+    color: #fff;
+}
+.section{
+    margin: 0 0 12rem;
+}
+
+
+
+
+
+/* HOME */
+.home_section{
+  max-width: 110rem;
+  padding: 0 0.46rem;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.grid-2-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.home_text{
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+}
+.home-text{
+    font-size: 1.3rem;
+    padding-bottom: 1.4rem;
+    font-weight: 100;
+
+}
+.home_title{
+    font-size: 32px;
+    padding-bottom: 18px;
+    line-height: 1.5;
+}
+.home_subtitle{
+    font-size: 18px;
+    padding-bottom: 0.7rem;
+    line-height: 2;
+}
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 15px 45px;
+    margin-top: 12px;
+    border: 1px solid #6b096b;
+    color: var(--button-color);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-weight: 400;
+}
+.btn:hover{
+    background-color: var(--secondary-color);
+}
+.home_img{
+    text-align: center;
+    position: relative;
+
+}
+.home_img img{
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 40%;
+}
+
+/* ABOUT */
+.about, .hobby, .education, .goal{
+    padding: 10px 33px;
+    padding: 0.4rem 2.4rem;
+}
+.about_section{
+  max-width: 110rem;
+  padding: 0 0.46rem;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.about_me{
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3rem 4.6rem;
+}
+.about_subtitle{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding-bottom: 1.7rem;
+    color: #292424;
+ 
+}
+.about_img{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.hero-icon{
+    width: 15rem;
+    height: 10rem;
+    color: #292424;
+}
+.about_text{
+    display: flex;
+    line-height: 1.5;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 19px;
+}
+
+/* HOBBY */
+.hobbies{
+    padding: 10px 33px;
+    padding: 0.4rem 2.4rem;
+}
+.hobby_text{
+    display: flex;
+    font-weight: 100;
+    margin: 0 auto;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+.hero-icon{
+    color: var(--primary-color);
+}
+.grp-icon{
+    width: 2.2rem;
+    height: 2rem;
+    border-radius: 50%;
+    color: var(--primary-color);
+}
+.about_me li{
+    font-size: 18px;
+    line-height: 1.6rem;
+    padding-left: 0.9rem;
+}
+
+/* CONTACT */
+
+main{
+    padding: 0 5.2rem;
+    border-bottom: 0.5px solid #c242c0;
+}
+
+.contact_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50rem;
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    margin: 6.8rem auto;
+    background-color: #c242c0;
+    padding: 3.6rem 2.4rem;
+    border-radius: 1rem;
+}
+.contact_text {
+    padding-left: 2.4rem;
+}
+.contact_text h2{
+    margin: 0.6rem 0 3rem;
+    font-size: 2rem;
+}
+.contact_info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+.contact_icon{
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #c242c0;
+    padding-right: 0.6rem;
+}
+.contact_info a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #000;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+.social_icons {
+    display: flex;
+    column-gap: 2.4rem;
+    margin: 1.4rem 0 3rem;
+}
+textarea {
+    width: 100%;
+    min-height: 11.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 3.2rem;
+}
+.social_group h3 {
+    font-size: 1.8rem;
+    margin: 3.6rem 0 0.8rem;
+}
+.social_icon a {
+    text-decoration: none;
+}
+.icons{
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #c242c0;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #bfc2ed;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+
+
+
+/* REGISTER CSS */
+
+.section{
+    margin: auto;
+}
+.reg_form_section{
+    max-width: 100%;
+    padding-top: 2.4rem;
+    border-radius: 1rem;
+    margin: 6.8rem auto;
+    background-color: var(--primary-color);
+    width: 40rem;
+    
+}
+.reg_heading, .login_heading{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.2rem 0px 2rem;
+}
+.reg_form{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 1rem;
+    padding: 0px 2rem 2rem;
+}
+label{
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+    
+}
+input{
+    width: 100%;
+    margin-bottom: 2.2rem;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+
+}
+select {
+    width: 100%;
+    margin-bottom: 1.4rem;
+    color: rgb(68, 68, 68);
+    padding: 0.8rem 1rem;
+    border-style: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+.reg_btn {
+    width: 100%;
+    margin-bottom: 4.2rem;
+    padding: 0.4rem 1.1rem;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    background-color:#5c055c;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+.reg_form button{
+    grid-column: 1 / span 2;
+    width: 20rem;
+    margin: 2.4rem auto 4.8rem;
+}
+
+
+
+
+/* LOGIN CSS */
+.login_form {
+    margin: 5rem auto 10rem;
+    width: 30rem;
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* Calculator */
+
+.calculator {
+    width: 320px;
+    height: 520px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 5px;
+    background-color: #9b9797;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result {
+    height: 120px;
+    background-color: #c242c0;
+
+}
+#history{
+    text-align: right;
+    padding-top: 20px;
+    height: 20px;
+    margin: 0 20px;
+    font-size: 25px;
+    color: white;
+
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+#keyboard {
+    height: 400px;
+}
+.gray{
+    background-color: var(--primary-color);
+}
+.white{
+    background-color: #f8f2f2;
+}
+td {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* FOOTER  */
+
+.footer_icons{
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-top: 2.4rem;
+    margin-bottom: 1rem;
+    column-gap: 1.2rem;
+   
+}
+.footer-icon {
+    text-decoration: none;
+    transition: all 0.4s;
+    width: 1.8rem;
+    height: 1.8rem;
+    color: var(--secondary-color);
+}
+.footer-text{
+    text-align: center;
+    margin-bottom: 1.8rem;
+}
+.footer-text p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 900px) {
+    .grid-2-col{
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
+    .nav__logo{
+        display: none;
+    }
+    main {
+        padding: 2rem 2.8rem;
+    }
+    section {
+        margin: 0 0 30px;
+    }
+    .home{
+        max-width: 120rem;
+        padding: 0 3rem;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .home_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .home_img img {
+        width: 100%;
+    }
+
+    .about_me {
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+    .about_text, .hobby_text{
+        font-size: 16px;
+    }
+    .about_me li{
+        font-size: 15px;
+        padding-left: 0.9rem;
+    }
+    .hero-icon {
+        width: 12rem;
+        height: 12rem;
+    }
+}
