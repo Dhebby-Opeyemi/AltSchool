@@ -124,11 +124,11 @@ body{
 .home_img{
     text-align: center;
     position: relative;
-
 }
 .home_img img{
     width: 70%;
     margin-top: 10px;
+    border: none;
     border-radius: 40%;
 }
 
@@ -454,9 +454,6 @@ td {
         grid-template-columns: 1fr;
         row-gap: 3rem;
     }
-    .nav__logo{
-        display: none;
-    }
     main {
         padding: 2rem 2.8rem;
     }
@@ -470,7 +467,6 @@ td {
         margin: 0 auto;
     }
     .home_img {
-        width: 100%;
         margin: 0 auto;
     }
     .home_img img {
@@ -491,5 +487,20 @@ td {
     .hero-icon {
         width: 12rem;
         height: 12rem;
+    }
+  
+  
+}
+
+@media screen and (max-width: 600px) {
+    .nav__logo{
+        display: none;
+    }
+    .login_form {
+        margin: 5rem auto 10rem;
+        width: 25rem;
+        background-color: var(--primary-color);
+        padding: 2rem;
+        border-radius: 1rem;
     }
 }
